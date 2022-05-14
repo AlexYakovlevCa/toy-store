@@ -1,0 +1,74 @@
+.toy-filter{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-block-start: 1em;
+gap: 1em;
+
+    & .labels-contianer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // width: 100%;
+        position: relative;
+        background-color: rgb(239 239 238);
+
+
+    }
+    & .labels-contianer > *:not(.toggle-visable){
+        cursor: pointer;
+
+        width: 20em;
+
+    }
+    & .disabeld-inp{
+        height: 2em;
+    }
+
+
+    & .filter-labels{
+        cursor: pointer;
+
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        top: 2em;
+        overflow: hidden;
+        width: 20em;
+        text-align: center;
+        height: 7.3rem;
+    }
+    input[type=text]:not(.disabeld-inp){
+        width: 100px;
+        height: 2em;
+        background-color: rgb(239 239 238);
+        border: 1px solid rgba(0, 0, 0, 0.137);
+        border-radius: .2em;
+        cursor: pointer;
+
+
+
+    }
+    input::selection{
+        outline: none;
+    }
+    select[name=inStock],select[name=sort]{
+        cursor: pointer;
+
+        width: 10em;
+        height: 2em;
+        background-color: rgb(239 239 238);
+
+
+        border: none;
+        border-radius: 0.3em;
+        background-color: rgba(197, 196, 193, 0.274);
+        
+    }
+
+
+    
+    
+    
+}

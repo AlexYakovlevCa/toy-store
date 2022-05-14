@@ -1,0 +1,45 @@
+.app-header {
+    // min-height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3em;
+    font-size: 1em;
+    box-shadow: inset 0px -4px 0px 0px #00000036;
+    // background-color: #282c34;
+    background-color: #FF7F50	;
+    align-items: center;;
+
+    nav {
+        height: 5rem;
+        // background-color: red;
+        display: flex;
+    }
+
+    nav>* {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        width: 80px;
+        text-align: center;
+        color: black;
+        justify-content: center;
+        border-inline-start:         1px solid black;
+        ;
+    }
+    nav>:last-child{
+        border-inline-end:         1px solid black;
+
+    }
+
+    nav>*.active {
+        color: #000000ff;;
+        font-weight: 600;
+        box-shadow: inset 0px -4px 0px 0px #000000
+    }
+    .logo{
+        color:black;
+    }
+
+}

@@ -1,0 +1,36 @@
+/*SETUP*/
+@import 'setup/_variables';
+@import url(setup/_mixins.scss);
+@import url(setup/_functions.scss);
+
+
+/* BASE */
+@import url(./base/_base.scss);
+@import url(./base/_helpers.scss);
+
+/* CMPS */
+@import url(./cmp/_root-cmp.scss);
+@import url(./cmp/_toy-filter.scss);
+@import url(./cmp/_app-header.scss);
+@import url(./cmp/_app-footer.scss);
+@import url(./cmp/_toy-list.scss);
+@import url(./cmp/_user-msg.scss);
+@import url(./cmp/_toy-preview.scss);
+
+/* PAGES */
+@import url(./page/_about-page.scss);
+@import url(./page/_home-page.scss);
+@import url(./page/_toy-app.scss);
+@import url(./page/_login.scss);
+@import url(./page/_toy-details.scss);
+@import url(./page/_toy-edit.scss);
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 400px;
+
+    height: 200px;
+}

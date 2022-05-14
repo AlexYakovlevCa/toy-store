@@ -1,0 +1,28 @@
+.toggle-visable{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+.btn-classic{
+    background-color: #FF7F50;
+    border: 2px solid #ee490d;
+    border-radius: 0.3em;
+    // opacity: 0.89;
+    cursor: pointer;
+    // transition: opacity 0.3s ;
+
+    &:hover{
+        // opacity: 1;
+        animation: btns-classic .5s 1;
+        background-color:  #ee490d;
+       
+    }
+}
+
+@keyframes btns-classic {
+            50%{
+                opacity: 0.3;
+            }
+}

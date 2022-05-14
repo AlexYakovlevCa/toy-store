@@ -1,0 +1,20 @@
+.toy-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 15em;
+    margin: auto;
+}
+.toy-edit .edit-img {
+    width: 15em;
+}
+.toy-edit .edit-img img{
+    width: 100%;
+}
+.toy-edit .edit-labels{
+    display: flex;
+    flex-direction: column;
+    /* justify-self: flex-start; */
+    align-items:  flex-start;
+}

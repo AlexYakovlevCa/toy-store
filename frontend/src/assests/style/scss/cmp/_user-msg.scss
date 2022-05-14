@@ -1,0 +1,50 @@
+.user-msg {
+    border: 1px solid black;
+    width: 200px;
+    box-shadow: 5px 5px 6px -3px rgb(0 0 0 / 36%);
+    height: 60px;
+    font-size: 1.2em;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 1em;
+
+    & button {
+        cursor: pointer;
+        width: 1.4em;
+        background-image: url(../../imgs/cancel.png);
+        background-position: center;
+        background-size: 1.4em;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        height: 1.4em;
+        border: none;
+        background-color: transparent;
+
+    }
+
+    &.danger {
+        background-color: #d24858;
+        border: #d23d4f;
+    }
+
+    &.success {
+        border: #4cc943;
+        background-color: #5ccc54;
+
+    }
+
+    & button:hover {
+        background-color: #282c3439;
+
+    }
+
+    span {
+        max-width: 10em;
+    }
+
+}

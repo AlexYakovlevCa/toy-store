@@ -1,0 +1,10 @@
+.toy-list{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(13em,max-content)) ;
+    gap: 0.4em;
+    max-width: 1200px;
+align-content: center;
+margin: auto;
+justify-content: center;
+}

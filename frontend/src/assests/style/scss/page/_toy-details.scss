@@ -1,0 +1,23 @@
+.toy-details{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(149, 147, 144, 0.534);
+    width: 20em;
+    height: 30em;
+    margin: auto;
+    box-shadow:5px 5px 6px -3px rgba(0,0,0,0.36);
+    border-radius: 0.3em;
+
+
+}
+.details-img{
+    width: 20em;
+    height: 300px;
+}
+
+
+.details-img img{
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+}
